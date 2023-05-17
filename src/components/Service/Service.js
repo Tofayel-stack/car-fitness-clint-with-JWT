@@ -17,7 +17,7 @@ const Service = () => {
     // console.log(products);
 
     return (
-        <div className='flex container justify-evenly flex-wrap'>
+        <div className='flex container m-auto justify-evenly flex-wrap'>
            {
             products?.map(product => <ServiceCard
             key={product._id}
