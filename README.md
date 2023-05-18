@@ -36,5 +36,7 @@
 7 JWT jot token 
 
 
-# clint git link : https://github.com/Tofayel-stack/car-fitness-clint-with-JWT
-# server git link : https://github.com/Tofayel-stack/car-fitness-with-JWT-server
+## clint git link : https://github.com/Tofayel-stack/car-fitness-clint-with-JWT
+## server git link : https://github.com/Tofayel-stack/car-fitness-with-JWT-server
+## vercel server link : https://car-fitness-server.vercel.app/
+
