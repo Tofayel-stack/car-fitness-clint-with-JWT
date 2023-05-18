@@ -14,7 +14,7 @@ const ServiceCard = ({product}) => {
         const confirm = window.confirm('are u sure about Deleting')
 
         if(confirm){
-            fetch((`http://localhost:5000/service/${id}`),{
+            fetch((`https://car-fitness-server.vercel.app/service/${id}`),{
                 method:'DELETE',
                 headers:{'content-type':"application/json"}
             })

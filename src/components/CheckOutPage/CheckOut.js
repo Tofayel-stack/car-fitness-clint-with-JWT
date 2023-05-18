@@ -44,7 +44,7 @@ const CheckOut = () => {
         }
 
     
-        fetch('http://localhost:5000/userOrder',{
+        fetch('https://car-fitness-server.vercel.app/userOrder',{
             method: 'POST',
             headers:{'content-type': 'application/json'},
             body: JSON.stringify(order)

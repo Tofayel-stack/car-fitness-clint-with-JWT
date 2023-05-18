@@ -7,7 +7,7 @@ const MyTeam = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/teamData')
+        fetch('https://car-fitness-server.vercel.app/teamData')
         .then(res => res.json())
         .then(data =>setTeams(data))
         .catch(error => console.error(error))

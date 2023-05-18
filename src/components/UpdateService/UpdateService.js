@@ -12,7 +12,7 @@ const UpdateService = () => {
     function onSubmitHandle(event){
         event.preventDefault()
 
-        fetch(`http://localhost:5000/service/${takedProduct._id}`,{
+        fetch(`https://car-fitness-server.vercel.app/service/${takedProduct._id}`,{
             method:'PUT',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify(latestUpdate)

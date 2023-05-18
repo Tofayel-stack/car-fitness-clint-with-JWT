@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/checkout/:id',
-                loader:({params})=>fetch(`http://localhost:5000/checkout/${params.id}`),
+                loader:({params})=>fetch(`https://car-fitness-server.vercel.app/checkout/${params.id}`),
                 element:<PrivateRouter><CheckOut></CheckOut></PrivateRouter>
             },
             {
@@ -57,7 +57,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/update/:id',
-                loader:({params})=>fetch(`http://localhost:5000/service/${params.id}`),
+                loader:({params})=>fetch(`https://car-fitness-server.vercel.app/service/${params.id}`),
                 element:<UpdateService></UpdateService>
             }
         ]

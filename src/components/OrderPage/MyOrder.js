@@ -9,7 +9,7 @@ const MyOrder = () => {
    
     const [orderData,setOrderData] = useState()
     useEffect(()=>{
-        fetch(`http://localhost:5000/userOrder?email=${user?.email}`,{
+        fetch(`https://car-fitness-server.vercel.app/userOrder?email=${user?.email}`,{
             headers:{
                 authorization: `Bearer ${localStorage.getItem('token')}`
             }
@@ -37,7 +37,7 @@ const MyOrder = () => {
         const permission = window.confirm("are u sure to DLT")
 
         if(permission){
-            fetch(`http://localhost:5000/userOrder/${id}`,{
+            fetch(`https://car-fitness-server.vercel.app/userOrder/${id}`,{
             method:'DELETE',
         })
         .then(res => res.json())

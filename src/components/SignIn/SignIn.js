@@ -28,7 +28,7 @@ const SignIn = () => {
         const currentUser = {email: user.email}
             // get a jwt token in the time of user login . when firebase say user is authentic . thn we want a jwt for this user
 
-              fetch('http://localhost:5000/jwt',{
+              fetch('https://car-fitness-server.vercel.app/jwt',{
                 method:'POST',
                 headers:{
                   'content-type':'application/json'

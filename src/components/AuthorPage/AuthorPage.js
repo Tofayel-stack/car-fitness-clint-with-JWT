@@ -8,7 +8,7 @@ const AuthorPage = () => {
   function handleSubmitForm(event){
     event.preventDefault()
 
-    fetch('http://localhost:5000/service',{
+    fetch('https://car-fitness-server.vercel.app/service',{
       method:'POST',
       headers:{'content-type':'application/json'},
       body:JSON.stringify(productInfo)
