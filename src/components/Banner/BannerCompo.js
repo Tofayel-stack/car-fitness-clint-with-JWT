@@ -14,11 +14,11 @@ const BannerCompo = ({props}) => {
 
                 <div className='absolute inset-y-40 left-20'>
                     <h1 className='lg:text-6xl font-bold text-white'>Affordable Car <br /> Service Is <br />  Always Guaranteed!</h1>
-                    <p className='text-lg text-white my-12'>
+                    <p className='text-lg text-white my-12 lg:block hidden'>
                     When it comes to keeping your car running safely and efficiently,<br /> getting it serviced regularly is one of the best things you can do.
                     </p>
-                        <button className="btn rounded mr-4">Contact Us</button>
-                        <button className="btn btn-outline btn-error rounded">Latest Project</button>
+                        <button className="btn rounded mr-4 lg:inline hidden">Contact Us</button>
+                        <button className="btn btn-outline btn-error rounded lg:inline hidden">Latest Project</button>
                 </div>
 
         </div> 

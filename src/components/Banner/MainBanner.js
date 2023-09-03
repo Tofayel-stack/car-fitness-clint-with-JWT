@@ -34,7 +34,7 @@ const sliderData = [
 
 const MainBanner = () => {
     return (
-        <div className="carousel w-3/4 m-auto">
+        <div className="carousel lg:w-3/4 m-auto">
             {
                 sliderData.map(slide => <BannerCompo
                 key={slide.id}

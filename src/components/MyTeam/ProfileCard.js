@@ -9,7 +9,7 @@ const ProfileCard = ({teamData}) => {
     // console.log(teamData);
   return (
     <div>
-      <div className="card w-96 mx-2 my-2 bg-base-100 shadow-lg">
+      <div className="card w-full lg:w-96 mx-2 my-2 bg-base-100 shadow-lg">
         <figure className="px-6 pt-10">
           <img 
             src={photo}
